@@ -1,0 +1,52 @@
+.app{
+  background:linear-gradient(135deg,rgb(206, 206, 206),rgb(77, 77, 77));
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+button{
+  background:radial-gradient(rgb(23, 83, 212),rgb(29, 29, 139));
+  height:150px;
+  width: 150px;
+  border-radius: 50%;
+  border: 8px solid #706464;
+  outline: 0;
+}
+
+button:hover{
+  transition:0.1s;
+  background:radial-gradient(rgb(7, 48, 161),rgb(3, 3, 71));
+}
+
+.count{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 70px;
+
+}
+
+.mala{
+  padding:6px 15px;
+  color: #5c5757;
+  font-size: 20px;
+  border: 1px solid #00000080;
+  border-radius: 20px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.bit{
+  padding:6px 15px;
+  color: #5c5757;
+  font-size: 20px;
+  border: 1px solid #00000080;
+  border-radius: 20px;
+  text-align: center;
+}
+
+span{
+  color: rgb(255, 255, 255);
+}
